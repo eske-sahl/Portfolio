@@ -14,12 +14,17 @@
     <header>
         <nav>
             <div class="logo">Sahl Saleem</div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
     </header>
 
@@ -27,19 +32,19 @@
         <section id="hero">
             <div class="hero-text">
                 <h1>Sahl Saleem</h1>
-                <p>Software Developing Student</p>
+                <p>A <span id="typing-text"></span></p>
                 <a href="#projects" class="cta-button">View My Work</a>
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="hidden">
             <h2>About Me</h2>
             <div class="about-content">
                 <p>I am a passionate and driven software development student with a strong foundation in programming fundamentals and a keen eye for detail. I enjoy turning complex problems into simple, beautiful, and intuitive designs. I am constantly exploring new technologies and am eager to apply my skills to solve real-world problems and create meaningful user experiences. I am a quick learner, a collaborative team player, and I am excited about the opportunity to contribute to innovative projects and grow as a developer.</p>
             </div>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="hidden">
             <h2>My Skillset</h2>
             <div class="skills-container">
                 <div class="skill"><i class="fab fa-python"></i> Python</div>
@@ -51,7 +56,7 @@
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="hidden">
             <h2>My Projects</h2>
             <div class="projects-container">
                 <div class="project-card">
@@ -84,7 +89,7 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="hidden">
             <h2>Get In Touch</h2>
             <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
             <a href="mailto:sahl.saleem@example.com" class="contact-button">Email Me</a>
